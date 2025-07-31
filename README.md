@@ -1,3 +1,4 @@
+```yaml
 # postgres-configmap.yaml
 apiVersion: v1
 kind: ConfigMap
@@ -116,3 +117,4 @@ spec:
     targetPort: 5432
   selector:
     app: postgres
+```
